@@ -46,14 +46,14 @@ const RootQuery = new GraphQLObjectType({
                 id: { type: GraphQLString }    
             },
             resolve(parentValue, args) {
-                return axios.get(`http://localhost:3000/customers/${args.id}`)
+                return axios.get(`http://localhost:3004/customers/${args.id}`)
                     .then(res => res.data)
             }
         },
         customers: {
             type: GraphQLList(CustomerType),
             resolve() {
-                return axios.get(`http://localhost:3000/customers`)
+                return axios.get(`http://localhost:3004/customers`)
                 .then(res => res.data)
             }
         }
