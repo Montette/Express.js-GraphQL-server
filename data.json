@@ -1,0 +1,34 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Adam",
+      "email": "tommy-kolin@gmail.com",
+      "age": 33
+    },
+    {
+      "id": "2",
+      "name": "Tom Kolinsky",
+      "email": "tommy-kolin@gmail.com",
+      "age": 33
+    },
+    {
+      "id": "4",
+      "name": "Robert Smith",
+      "email": "robert.smith@yahoo.com",
+      "age": 46
+    },
+    {
+      "id": "5",
+      "name": "Lois Jaenne",
+      "email": "fun.lois@gmail.com",
+      "age": 21
+    },
+    {
+      "name": "Laura",
+      "email": "laura@gmail.com",
+      "age": 19,
+      "id": "Ya6sJ_V"
+    }
+  ]
+}
